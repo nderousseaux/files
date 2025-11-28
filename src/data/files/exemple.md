@@ -1,23 +1,47 @@
 ---
 slug: noel
-title: Exemple de fichier
+title: Repas de noël
 ---
 
-# Exemple de fichier
+# Organisation du repas de noël
+**Lieu :** Chez Natha, 24 avenue du général de Gaulle
 
-Ceci est un fichier markdown accessible uniquement via son URL directe.
+**Date :** 6 décembre 2025 à 18h30
 
-Il n'apparaît pas dans la liste des articles du blog, mais il est accessible directement via `/files/exemple`.
+**Effectifs (pour la bouffe) :** 12 (dont 3 sans alcool)
 
-## Fonctionnalités
+## 😋 Miam miam
 
-- Pas de header
-- Pas de footer
-- Mise en page markdown simple
-- Accessible uniquement via lien direct
+### Liste des VPs
 
-## Utilisation
+> #### ⚠️ À l'attention des VPs : Faites vos comptes pour un éventuel tricount après la soirée
 
-Pour créer un nouveau fichier :
-1. Ajoutez un fichier `.md` dans `src/data/file/`
-2. Il sera accessible via `/files/nom-du-fichier`
+- **VP Cocktails :** Yannick 
+- **VP Mocktails :** Natha
+- **VP Vin chaud :** Amandine
+- **VP Vin :** Charles
+- **VP Amuses bouches :** Justin
+- **VP Plat n°1:** Maxime
+- **VP Plat n°2:** Noémie  
+- **VP Dessert :** Mélissa
+
+### Menu
+
+#### Boissons
+- Vin
+- Vin chaud
+- Cocktails (*TheFrench 67*, *Liquid Strudel*)
+- Mocktails (#todo)
+- Shots dessert (*Et avec ceci une boule neige ?*)
+
+#### Entrées
+- Toasts au boursin
+- Toasts au chèvre miel
+- Toasts à la mousse de canard
+
+#### Plats 
+- Dinde au cidre et aux petits légumes, avec un gratins dauphinois et haricots verts.
+- Risotto au potiron, permesan et sauge.
+
+#### Dessert
+- #todo
