@@ -1,0 +1,60 @@
+---
+import { SITE } from "@/config";
+import "@/styles/global.css";
+
+export interface Props {
+  title?: string;
+}
+
+const {
+  title = SITE.title,
+} = Astro.props;
+
+const socialImageURL = new URL(
+  SITE.ogImage ? `/${SITE.ogImage}` : "/og.png",
+  Astro.url.origin
+).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.url)} />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- General Meta Tags -->
+    <title>{title}</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={SITE.desc} />
+    <meta name="author" content={SITE.author} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={SITE.desc} />
+    <meta property="og:url" content={new URL(Astro.url.pathname, Astro.url)} />
+    <meta property="og:image" content={socialImageURL} />
+
+    <!-- Article Published/Modified time -->
+    <meta property="article:author" content={SITE.author} />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={new URL(Astro.url.pathname, Astro.url)} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={SITE.desc} />
+    <meta property="twitter:image" content={socialImageURL} />
+
+    <meta name="theme-color" content="" />
+  </head>
+  <body>
+    <div class="mx-auto max-w-3xl px-4 pb-12 pt-8">
+      <main id="main-content">
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import FileLayout from "@/layouts/FileLayout.astro";
+import { slugifyStr } from "@/utils/slugify";
+
+export interface Props {
+  file: CollectionEntry<"file">;
+}
+
+export async function getStaticPaths() {
+  const files = await getCollection("file");
+  const fileResult = files.map(file => {
+    return {
+      params: { slug: file.data.slug },
+      props: { file },
+    };
+  });
+
+  return fileResult;
+}
+
+const { file } = Astro.props;
+const { Content } = await render(file);
+---
+
+<FileLayout title={file.data.title}>
+  <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
+    <Content />
+  </article>
+</FileLayout>
