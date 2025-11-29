@@ -19,6 +19,7 @@ hidden: true
 
 - **VP Cocktails :** Yannick 
 - **VP Mocktails :** Natha
+- **VP Bière :** Simon
 - **VP Vin chaud :** Amandine
 - **VP Vin :** Charles
 - **VP Entrées :** Justin
@@ -33,12 +34,15 @@ hidden: true
 - Vin chaud
 - Cocktails (*TheFrench 67*, *Liquid Strudel*)
 - Mocktails (#todo)
+- Bière
 - Shots dessert (*Et avec ceci une boule neige ?*)
 
 #### Entrées
 - Toasts au boursin
 - Toasts au chèvre miel
 - Toasts à la mousse de canard
+- Tarte soleil pesto
+- Roulés saucisses
 
 #### Plats 
 - Dinde au cidre et aux petits légumes, avec un gratins dauphinois et haricots verts.
