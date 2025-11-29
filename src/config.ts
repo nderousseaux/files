@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://satnaing.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "Files nldx",
-  // ogImage: "astropaper-og.jpg",
+  ogImage: "astropaper-og.jpg",
   dir: "ltr",
   lang: "en",
   timezone: "Asia/Bangkok",
