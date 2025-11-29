@@ -1,6 +1,7 @@
 ---
 slug: noel
 title: Repas de noël
+hidden: true
 ---
 
 # Organisation du repas de noël
@@ -20,7 +21,7 @@ title: Repas de noël
 - **VP Mocktails :** Natha
 - **VP Vin chaud :** Amandine
 - **VP Vin :** Charles
-- **VP Amuses bouches :** Justin
+- **VP Entrées :** Justin
 - **VP Plat n°1:** Maxime
 - **VP Plat n°2:** Noémie  
 - **VP Dessert :** Mélissa
