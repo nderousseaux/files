@@ -9,7 +9,7 @@ hidden: true
 
 **Date :** 6 décembre 2025 à 18h30
 
-**Effectifs (pour la bouffe) :** 12 (dont 3 sans alcool)
+**Effectifs (pour la bouffe) :** 13 (dont 3 sans alcool)
 
 ## 😋 Miam miam
 
