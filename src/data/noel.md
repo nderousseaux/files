@@ -33,7 +33,7 @@ hidden: true
 - Vin
 - Vin chaud
 - Cocktails (*TheFrench 67*, *Liquid Strudel*)
-- Mocktails (#todo)
+- Mocktails (Jus de pomme, citron vert, sirop d'orgeat et Perrier)
 - Bière
 - Shots dessert (*Et avec ceci une boule neige ?*)
 
@@ -49,4 +49,5 @@ hidden: true
 - Risotto au potiron, permesan et sauge.
 
 #### Dessert
-- #todo
+- Nougat glacé
+- Bûche crème de marron
