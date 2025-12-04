@@ -51,3 +51,10 @@ hidden: true
 #### Dessert
 - Nougat glacé
 - Bûche crème de marron
+
+
+## Activités
+- Secret Santa
+- Jamboree / Mario kart
+- Jeux de sociétés (Two room and a boom)
+- Diapo award club ciné 
